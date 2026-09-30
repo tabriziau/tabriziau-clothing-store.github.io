@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="TABRIZIAU — modern clothing for men, women, boys and girls." />
+  <title>TABRIZIAU | Modern Fashion</title>
+  <link rel="icon" href="assets/tabriziau-logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">
+    <span>FREE U.S. SHIPPING ON ORDERS $75+</span>
+    <span class="announcement-sep">•</span>
+    <span>STYLE ADVISORY: +1 (404) 555-0127</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="TABRIZIAU home">
+      <img src="assets/tabriziau-logo.jpg" alt="TABRIZIAU logo" />
+      <div><strong>TABRIZIAU</strong><small>MODERN FASHION</small></div>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#boys">Boys</a>
+      <a href="#girls">Girls</a>
+      <a href="#support">Support</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search">⌕</button>
+      <button class="bag-btn" aria-label="Shopping bag">Bag <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">NEW SEASON • 2026</span>
+        <h1>Style made<br><em>for every day.</em></h1>
+        <p>Curated clothing for men, women, boys and girls — modern silhouettes, versatile essentials and standout pieces in one clean shopping experience.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#shop">Shop the collection</a>
+          <a class="text-link" href="#support">Get style advice →</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>32</strong><span>featured styles</span></div>
+          <div><strong>4</strong><span>curated departments</span></div>
+          <div><strong>2</strong><span>direct support lines</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="TABRIZIAU fashion visual">
+        <div class="hero-card card-one"><span>MEN</span></div>
+        <div class="hero-card card-two"><span>WOMEN</span></div>
+        <div class="hero-card card-three"><span>KIDS</span></div>
+        <div class="hero-logo"><img src="assets/tabriziau-logo.jpg" alt="TABRIZIAU emblem" /></div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <article><span>01</span><div><strong>Curated selection</strong><small>Everyday pieces, seasonal edits and elevated basics.</small></div></article>
+      <article><span>02</span><div><strong>Easy assistance</strong><small>Dedicated support and personalized style guidance.</small></div></article>
+      <article><span>03</span><div><strong>Simple shopping</strong><small>Clear categories, sizing and fast browsing on any device.</small></div></article>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="section-heading">
+        <div><span class="eyebrow">THE TABRIZIAU EDIT</span><h2>Shop by department</h2></div>
+        <p>All prices shown in USD. Retail-reference prices were checked from public U.S. listings on September 29, 2026 and may change.</p>
+      </div>
+
+      <div class="shop-tools">
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="men">Men</button>
+          <button class="filter" data-filter="women">Women</button>
+          <button class="filter" data-filter="boys">Boys</button>
+          <button class="filter" data-filter="girls">Girls</button>
+        </div>
+        <label class="search-box" id="searchBox">
+          <span>⌕</span><input id="productSearch" type="search" placeholder="Search styles..." autocomplete="off" />
+        </label>
+      </div>
+
+      <div id="catalog"></div>
+    </section>
+
+    <section class="editorial">
+      <div>
+        <span class="eyebrow light">TABRIZIAU STYLE SERVICE</span>
+        <h2>Need help building the look?</h2>
+        <p>Talk with our style advisory line for outfit ideas, category guidance and help choosing versatile pieces for your wardrobe.</p>
+      </div>
+      <a href="tel:+14045550127">Call +1 (404) 555-0127</a>
+    </section>
+
+    <section class="support" id="support">
+      <div class="support-copy">
+        <span class="eyebrow">WE'RE HERE TO HELP</span>
+        <h2>Support that feels personal.</h2>
+        <p>Whether you have a question about a product, sizing, an order or simply want help choosing a look, TABRIZIAU keeps two dedicated lines available for you.</p>
+      </div>
+      <div class="support-grid">
+        <article>
+          <span class="support-icon">✦</span>
+          <small>CUSTOMER SUPPORT</small>
+          <strong>+1 (404) 555-0184</strong>
+          <p>Orders, delivery, returns, site assistance and general questions.</p>
+          <a href="tel:+14045550184">Call support →</a>
+        </article>
+        <article>
+          <span class="support-icon">◇</span>
+          <small>STYLE ADVISORY</small>
+          <strong>+1 (404) 555-0127</strong>
+          <p>Outfit guidance, category recommendations, fit and styling help.</p>
+          <a href="tel:+14045550127">Talk to an advisor →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div><span class="eyebrow">JOIN THE EDIT</span><h2>New styles, without the noise.</h2><p>Get seasonal edits, new arrivals and selected offers from TABRIZIAU.</p></div>
+      <form id="newsletterForm"><input type="email" placeholder="Email address" required /><button>Join now</button></form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="assets/tabriziau-logo.jpg" alt="TABRIZIAU" /><div><strong>TABRIZIAU</strong><span>Style Made for Every Day.</span></div></div>
+    <div class="footer-links"><a href="#men">Men</a><a href="#women">Women</a><a href="#boys">Boys</a><a href="#girls">Girls</a><a href="data/SOURCES.md">Sources</a></div>
+    <div class="footer-note">© 2026 TABRIZIAU. Demo storefront. Product photography is representative editorial imagery; brand names and price references remain property of their respective owners.</div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Added to bag</div>
+  <script src="script.js"></script>
+</body>
+</html>
